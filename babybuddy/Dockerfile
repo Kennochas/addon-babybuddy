@@ -22,15 +22,15 @@ RUN \
   echo "**** install build packages ****" && \
   apk add --no-cache --virtual=build-dependencies \
   build-base \
-  curl
-  # jpeg-dev \
-  # libffi-dev \
-  # libxml2-dev \
-  # libxslt-dev \
-  # mariadb-dev \
-  # postgresql-dev \
-  # python3-dev \
-  # zlib-dev
+  curl \
+  jpeg-dev \
+  libffi-dev \
+  libxml2-dev \
+  libxslt-dev \
+  mariadb-dev \
+  postgresql-dev \
+  python3-dev \
+  zlib-dev
 
 # hadolint ignore=DL3003
 RUN \
