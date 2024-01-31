@@ -30,7 +30,9 @@ RUN \
   mariadb-dev \
   postgresql-dev \
   python3-dev \
-  zlib-dev
+  zlib-dev \
+  libcrypto3 \
+  libssl3
 
 # hadolint ignore=DL3003
 RUN \
