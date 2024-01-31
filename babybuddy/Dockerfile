@@ -31,9 +31,8 @@ RUN \
   postgresql-dev \
   python3-dev \
   zlib-dev \
-  libcrypto3 \
-  libssl3 \
-  openssl-dev
+  libcrypto3=3.1.4-r5 \
+  libssl3=3.1.4-r5
 
 # hadolint ignore=DL3003
 RUN \
