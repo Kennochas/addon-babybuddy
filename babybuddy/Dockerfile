@@ -18,6 +18,12 @@ RUN \
   /app/babybuddy --strip-components=1
 
 # hadolint ignore=DL3003
+
+RUN \
+  apk add --no-cache \
+  libcrypto3=3.1.4-r5 \
+  libssl3=3.1.4-r5
+
 RUN \
   echo "**** install build packages ****" && \
   apk add --no-cache --virtual=build-dependencies \
