@@ -22,7 +22,7 @@ RUN \
   echo "**** install build packages ****" && \
   apk add --no-cache --virtual=build-dependencies \
   build-base \
-  # curl \
+  curl
   # jpeg-dev \
   # libffi-dev \
   # libxml2-dev \
