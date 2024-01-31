@@ -32,7 +32,8 @@ RUN \
   python3-dev \
   zlib-dev \
   libcrypto3 \
-  libssl3
+  libssl3 \
+  openssl-dev
 
 # hadolint ignore=DL3003
 RUN \
